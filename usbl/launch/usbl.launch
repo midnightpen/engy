@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!--<node pkg="usbl" type="seatrac_tcp.py" name="usbl_tcp"/>-->
+    <!--<node pkg="usbl" type="seatrac_tcp_async.py" name="usbl_tcp" output="screen"/>-->
+    <node pkg="usbl" type="seatrac_x010_read_decrypt_engy.py" name="usbl" output="screen"/>  
+    <!--<node pkg="dvl" type="speed.py" name="speed">
+        <param name="ip" value="192.168.194.95"/>
+        <param name="port" value="16171"/>
+    </node>
+    <node pkg="dvl" type="position.py" name="position">
+        <param name="ip" value="192.168.194.95"/>
+        <param name="port" value="16171"/>
+    </node>
+    <node pkg="dvl" type="reset.py" name="reset">
+        <param name="ip" value="192.168.194.95"/>
+        <param name="port" value="16171"/>
+    </node>-->
+</launch>
